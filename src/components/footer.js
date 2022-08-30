@@ -1,13 +1,14 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 function Footer(props) {
 	return (
 		<footer className="page-footer">
 			<div className="container">
 				<div className="links">
-					<a href="#">About me</a>
+					<Link to="/">About me</Link>
 					{/*<a href="#">Contact me</a>*/}
-					<a href="projects-no-images.html">Projects</a>
+					<Link to="/projects">Projects</Link>
 				</div>
 				<div className="social-icons">
 					<a href="https://www.facebook.com/tarun.reddy.03/"><i className="icon ion-social-facebook"></i></a>

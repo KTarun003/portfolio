@@ -8,7 +8,7 @@ function Home(props) {
 					<div
 						className="avatar"
 						style={{
-							backgroundImage: `url('%PUBLIC_URL%/assets/images/avatar.jpg')})`,
+							backgroundImage: `url(/assets/img/avatars/avatar.jpeg)`,
 							}}
 					></div>
 					<div className="about-me">
