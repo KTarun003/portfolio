@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 function Footer(props) {
 	return (
@@ -7,7 +8,7 @@ function Footer(props) {
 				<div className="links">
 					<a href="#">About me</a>
 					{/*<a href="#">Contact me</a>*/}
-					<a href="projects-no-images.html">Projects</a>
+					<Link to="/projects">Projects</Link>
 				</div>
 				<div className="social-icons">
 					<a href="https://www.facebook.com/tarun.reddy.03/"><i className="icon ion-social-facebook"></i></a>
