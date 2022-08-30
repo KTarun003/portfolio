@@ -7,7 +7,7 @@ function Footer(props) {
 			<div className="container">
 				<div className="links">
 					<Link to="/">About me</Link>
-					{/*<a href="#">Contact me</a>*/}
+					<Link href="/contact">Contact me</a>
 					<Link to="/projects">Projects</Link>
 				</div>
 				<div className="social-icons">
