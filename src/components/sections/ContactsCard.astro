@@ -1,0 +1,29 @@
+---
+import Card from '../Card.astro'
+import { LINKS } from '../../lib/constants'
+---
+
+<Card colSpan="md:col-span-1" rowSpan="md:row-span-4">
+  <div class="h-full">
+    <header class="flex items-center">
+      <h1 class="text-xl font-bold text-foreground">
+        Education
+      </h1>
+    </header>
+    <address class="mt-4 flex flex-col">
+      <h2 class="text-gray-500">Andhra Loyola College</h2>
+      <p>BSc. Computer Science</p>
+      <p>Vijayawada, AP, IN</p>
+    </address>
+    <address class="mt-4 flex flex-col">
+      <h2 class="text-gray-500">K V AFS Begumpet</h2>
+      <p>10 + 2 (PCMCs) </p>
+      <p>Hyderabad, TS, IN</p>
+    </address>
+    <address class="mt-4 flex flex-col">
+      <h2 class="text-gray-500">K V AFS Begumpet</h2>
+      <p>10th (CBSE) </p>
+      <p>Hyderabad, TS, IN</p>
+    </address>
+  </div>
+</Card>

@@ -1,0 +1,20 @@
+---
+import Card from '../Card.astro'
+import Pulse from '../Pulse.astro'
+---
+
+<Card colSpan="lg:col-span-2" rowSpan="md:row-span-2">
+  <div class="mb-2 flex w-full items-start justify-between">
+    <div class="flex flex-col">
+      <div class="flex gap-4 items-center">
+        <h2 class="text-xl font-bold">Now</h2>
+        <Pulse />
+      </div>
+      <a href="https://sive.rs/nowff" target="_blank">
+        <span class="cursor-pointer text-xs text-gray-500">what's that ?</span>
+      </a>
+    </div>
+  </div>
+  <p class="text-sm">Founding Engineer at Knowvation Learnings Pvt Ltd</p>
+  <p class="text-sm">And working as Software Developer at Teckinfo Solutions Pvt Ltd</p>
+</Card>
